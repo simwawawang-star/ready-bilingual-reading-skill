@@ -1,0 +1,4 @@
+# No required Python packages.
+#
+# This Skill is prompt-based and can be used with only SKILL.md.
+# Add optional dependencies here only if you later include scripts that need them.

@@ -1,0 +1,44 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local/private source files
+*.pdf
+*.docx
+*.epub
+*.pages
+
+# Generated reading outputs
+*-complete.md
+*-annotated.md
+*-mindmap.md
+*-complete.pdf
+*-annotated.pdf
+*-mindmap.pdf
+chapter*-bilingual-mindmap.png
+
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.*
+credentials.*
+token.*
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
