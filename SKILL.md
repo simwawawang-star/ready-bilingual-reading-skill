@@ -22,6 +22,28 @@ Always keep the output in this order:
 
 Do not include internal processing notes, local file paths, source-device paths, extraction logs, metadata diagnostics, or publication status in the final reading output.
 
+## Non-Negotiable Completeness Rules
+
+The user is asking for a complete bilingual reading output unless they explicitly request a summary-only version.
+
+Always follow these rules:
+
+- Do not produce only a Chinese summary.
+- Do not replace paragraph-by-paragraph translation with a summary.
+- Do not skip the English original.
+- Do not skip the Chinese translation.
+- Do not silently omit required modules from the output order.
+- Do not shorten the task into "key points only" unless the user explicitly asks for key points only.
+- Full bilingual translation is the core deliverable; summary, notes, glossary, and flashcards are supporting modules.
+
+If the source is too long for one response:
+
+- Process it in clear parts by chapter, section, page range, or logical chunk.
+- Complete the full bilingual translation for the current part before moving to supporting modules for that part.
+- State what part has been completed and where the next part should continue.
+- Continue from the next unprocessed paragraph or section; do not repeat completed content.
+- Never use length as a reason to provide only a summary.
+
 ## Bilingual Mind Map
 
 At the beginning of the document, insert one bilingual mind map only.
