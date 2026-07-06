@@ -44,10 +44,43 @@ ready-bilingual-reading-skill/
 
 ## How To Use
 
-1. Open `SKILL.md`.
-2. Give the Skill an English academic reading or excerpt.
-3. Ask it to generate bilingual reading materials.
-4. If creating a PDF, make each major section start on a new page.
+### Personal Installation
+
+For a user-level Codex Skill, place this Skill in your Codex skills directory:
+
+```text
+$HOME/.agents/skills/ready-bilingual-reading/
+```
+
+The folder name should match the Skill name, and `SKILL.md` should be inside that folder.
+
+### Repository-Level Usage
+
+For a project-specific Skill, keep it inside the repository so Codex can read it with the project context:
+
+```text
+.agents/skills/ready-bilingual-reading/
+```
+
+Use this approach when the Skill should apply only to one project or course workspace.
+
+### Explicit Invocation
+
+In Codex, explicitly ask to use the Skill by name. For example:
+
+```text
+Use the ready-bilingual-reading Skill to process this reading.
+```
+
+In the CLI or IDE, you can run `/skills`, or type `$` to choose a Skill. You can also explicitly write:
+
+```text
+$ready-bilingual-reading
+```
+
+Then provide the English academic reading or excerpt and ask it to generate bilingual reading materials.
+
+If the new Skill does not appear, restart Codex.
 
 Example request:
 
