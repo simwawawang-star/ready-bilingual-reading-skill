@@ -33,6 +33,9 @@ Always follow these rules:
 - Do not skip the English original.
 - Do not skip the Chinese translation.
 - Do not silently omit required modules from the output order.
+- Do not be lazy in any step, including mind map, full paragraph-by-paragraph translation, vocabulary annotations in the English original text, references handling, flashcards, summary, section notes, glossary, sentence analysis, formatting, pagination, and final file delivery.
+- Do not provide a partial or simplified version of any required step unless the user explicitly asks for a partial version.
+- Do not mark a step as done unless that step has actually been completed in the output.
 - Do not shorten the task into "key points only" unless the user explicitly asks for key points only.
 - Full bilingual translation is the core deliverable; summary, notes, glossary, and flashcards are supporting modules.
 
@@ -222,6 +225,17 @@ When producing a PDF or paginated document, start each major part on a new page:
 - Long sentence analysis
 
 Do not include a Zotero note module unless the user explicitly asks for it.
+
+## Final PDF Delivery
+
+When file generation is available, create a final PDF version of the completed output and provide it to the user in addition to the Markdown or chat output.
+
+PDF delivery rules:
+
+- The PDF must contain the same required modules as the final reading output.
+- Do not offer only Markdown when the user asked for the Skill's default full output and PDF generation is available.
+- If PDF generation fails, explain the failure clearly and still provide the complete Markdown output.
+- Do not claim that a PDF was created unless the PDF file actually exists.
 
 ## Privacy and Safety
 
